@@ -19,7 +19,7 @@ $bodyHtml = '<h1>Thank You</h1>
     <p>Thanks For Registering your Account at our website</p>';
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'registration');
+$db = mysqli_connect('database-2.clsuze3isgno.ap-southeast-1.rds.amazonaws.com', 'admin', 'admin123', 'registration');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
